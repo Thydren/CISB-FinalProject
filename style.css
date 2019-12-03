@@ -5,13 +5,43 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Lato', sans-serif;
 */
 
+a {
+    color: red;
+    text-decoration: none;
+}
+
 body {
-    background-image: url(images/paper-68833_960_720.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: grid;
+background-image: url(images/wood-364693_960_720.jpg);
+background-repeat: no-repeat;
+background-size: cover;
 }
 
 body p {
     font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+h1 h2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+}
+
+.intro h1 {
+    font-size: 2em;
+} 
+
+.page-wrapper {
+    background-image: url(images/46b47a75-e683-45e5-a20c-77a80922ca19_1.8df9460e58e91c5462e87ee190326f2f.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    text-align: center;
+    width: 70em;
 }
