@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script|Lato&display=swap');
+
+/* ***Fonts***: 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lato', sans-serif;
+*/
+
+body {
+    background-image: url(images/paper-68833_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+}
+
+body p {
+    font-family: 'Dancing Script', cursive;
+}
