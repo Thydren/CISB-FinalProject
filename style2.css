@@ -5,6 +5,10 @@ font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
+abbr {
+    text-decoration: none;
+}
+
 body {
 background-image: url(images/smoke-2437886_960_720.webp);
 background-repeat: no-repeat;
