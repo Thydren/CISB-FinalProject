@@ -12,8 +12,24 @@ body {
     color: white;
 }
 
+body p {
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 16px;
+    line-height: 2em;
+}
+
+h1 h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
 header {
     background-image: url(images/giphy.gif);
     background-repeat: no-repeat;
     border-style: solid;
+}
+
+.page-wrapper {
+    text-align: center;
+    margin: 0 auto;
+    width: 30em;
 }
