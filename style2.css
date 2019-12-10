@@ -6,32 +6,32 @@ font-family: 'Montserrat', sans-serif;
 */
 
 body {
-    background-image: url(images/smoke-2437886_960_720.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: white;
+background-image: url(images/smoke-2437886_960_720.webp);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
 }
 
 body p {
-    font-family: 'Pathway Gothic One', sans-serif;
-    font-size: 16px;
-    line-height: 2em;
+font-family: 'Pathway Gothic One', sans-serif;
+font-size: 16px;
+line-height: 2em;
 }
 
 h1 h2 {
-    font-family: 'Montserrat', sans-serif;
+font-family: 'Montserrat', sans-serif;
 }
 
 header {
-    background-image: url(images/giphy.gif);
-    background-repeat: no-repeat;
-    border-style: solid;
+background-image: url(images/giphy.gif);
+background-repeat: no-repeat;
+border-style: solid;
 }
 
 .page-wrapper {
-    text-align: left;
-    margin: 0 auto;
-    width: 30em;
+text-align: left;
+margin: 0 auto;
+width: 30em;
 }
 
 .design-selection {
@@ -42,13 +42,23 @@ left: 60px;
 }
 
 .design-archives {
+background-image: url(images/giphy\ \(1\).gif);
+background-position: top;
+background-size: 500px;
+height: 300px;
+width: 200px;
 position: absolute;
 top: 30px;
-right: 60px;
+right: 105px;
 }
 
 .zen-resources {
-    position: absolute;
-    top: 120px;
-    right: 60px;
+
+position: absolute;
+top: 120px;
+right: 105px;
+}
+
+a {
+color: whitesmoke;
 }
