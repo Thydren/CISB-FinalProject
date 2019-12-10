@@ -29,7 +29,26 @@ header {
 }
 
 .page-wrapper {
-    text-align: center;
+    text-align: left;
     margin: 0 auto;
     width: 30em;
+}
+
+.design-selection {
+background-image: url(images/giphy\ \(1\).gif);
+position: absolute;
+top: 30px;
+left: 60px;
+}
+
+.design-archives {
+position: absolute;
+top: 30px;
+right: 60px;
+}
+
+.zen-resources {
+    position: absolute;
+    top: 120px;
+    right: 60px;
 }
