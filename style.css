@@ -10,6 +10,10 @@ a {
     text-decoration: none;
 }
 
+abbr {
+    text-decoration: none;
+}
+
 body {
 background-image: url(images/wood-2045379_960_720.webp);
 background-repeat: no-repeat;
