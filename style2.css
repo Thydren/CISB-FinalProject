@@ -5,3 +5,15 @@ font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
+body {
+    background-image: url(images/smoke-2437886_960_720.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+header {
+    background-image: url(images/giphy.gif);
+    background-repeat: no-repeat;
+    border-style: solid;
+}
