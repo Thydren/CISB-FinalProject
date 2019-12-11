@@ -5,6 +5,10 @@ font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
+a:hover {
+    color: yellow;
+  }
+
 abbr {
     text-decoration: none;
 }
