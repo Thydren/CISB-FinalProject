@@ -34,6 +34,7 @@ header {
 background-image: url(images/giphy.gif);
 background-repeat: no-repeat;
 border-style: solid;
+text-align: center;
 }
 
 .page-wrapper {
@@ -44,6 +45,8 @@ width: 30em;
 
 .design-selection {
 background-image: url(images/giphy\ \(1\).gif);
+border: solid;
+padding: 0 2em;
 position: absolute;
 top: 30px;
 left: 60px;
@@ -53,18 +56,19 @@ left: 60px;
 background-image: url(images/giphy\ \(1\).gif);
 background-position: top;
 background-size: 500px;
+border: solid;
 height: 300px;
 width: 200px;
+padding: 0 2em;
 position: absolute;
 top: 30px;
 right: 105px;
 }
 
 .zen-resources {
-
 position: absolute;
 top: 120px;
-right: 105px;
+right: 140px;
 }
 
 a {
