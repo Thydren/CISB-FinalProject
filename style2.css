@@ -24,7 +24,7 @@ background-image: url(images/smoke-2437886_960_720.webp);
 background-repeat: no-repeat;
 background-size: cover;
 font-family: 'Pathway Gothic One', sans-serif;
-font-size: 16px;
+font-size: 18px;
 color: white;
 }
 
@@ -51,7 +51,7 @@ text-align: center;
 .page-wrapper {
 margin: 0 auto;
 text-align: left;
-width: 30em;
+width: 25em;
 }
 
 .design-selection {
@@ -78,7 +78,7 @@ width: 200px;
 
 .zen-resources {
 position: absolute;
-right: 140px;
-top: 120px;
+right: 175px;
+top: 130px;
 }
 

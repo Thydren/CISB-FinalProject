@@ -24,12 +24,13 @@ background-image: url(images/wood-2045379_960_720.webp);
 background-repeat: no-repeat;
 background-size: cover;
 font-family: 'Dancing Script', cursive;
-font-size: 18pt;
+font-size: 20px;
 }
 
 p {
-line-height: 2em;
+line-height: 1.45em;
 margin-bottom: 1em;
+text-align: left;
 }
 h1 h2 {
 font-family: 'Lato', sans-serif;
@@ -44,6 +45,7 @@ font-family: 'Lato', sans-serif;
     top: 40px;
     text-align: left;
     left: 20px;
+
 }
 
 .intro h1 {
@@ -58,6 +60,5 @@ font-family: 'Lato', sans-serif;
     margin: 0 auto;
     padding-left: 80px;
     padding-right: 80px;
-    text-align: center;
-    width: 25em;
+    width: 32em;
 }
