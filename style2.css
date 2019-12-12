@@ -5,8 +5,14 @@ font-family: 'Pathway Gothic One', sans-serif;
 font-family: 'Montserrat', sans-serif;
 */
 
-a:hover {
+a:link {
+  color: whitesmoke;
+  text-decoration: none;
+  }
+
+a:hover, a:focus, a:visited {
     color: yellow;
+    text-decoration: underline;
   }
 
 abbr {
@@ -17,13 +23,18 @@ body {
 background-image: url(images/smoke-2437886_960_720.webp);
 background-repeat: no-repeat;
 background-size: cover;
+font-family: 'Pathway Gothic One', sans-serif;
+font-size: 16px;
 color: white;
 }
 
-body p {
-font-family: 'Pathway Gothic One', sans-serif;
-font-size: 16px;
+p {
 line-height: 2em;
+text-indent: 4em;
+}
+
+p:first-of-type {
+  text-indent: 0;
 }
 
 h1 h2 {
@@ -38,18 +49,18 @@ text-align: center;
 }
 
 .page-wrapper {
-text-align: left;
 margin: 0 auto;
+text-align: left;
 width: 30em;
 }
 
 .design-selection {
 background-image: url(images/giphy\ \(1\).gif);
 border: solid;
+left: 60px;
 padding: 0 2em;
 position: absolute;
 top: 30px;
-left: 60px;
 }
 
 .design-archives {
@@ -58,19 +69,16 @@ background-position: top;
 background-size: 500px;
 border: solid;
 height: 300px;
-width: 200px;
 padding: 0 2em;
 position: absolute;
-top: 30px;
 right: 105px;
+top: 30px;
+width: 200px;
 }
 
 .zen-resources {
 position: absolute;
-top: 120px;
 right: 140px;
+top: 120px;
 }
 
-a {
-color: whitesmoke;
-}

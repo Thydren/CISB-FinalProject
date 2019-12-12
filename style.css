@@ -5,13 +5,14 @@ font-family: 'Dancing Script', cursive;
 font-family: 'Lato', sans-serif;
 */
 
-a {
+a:link {
     color: red;
     text-decoration: none;
 }
 
-a:hover {
+a:hover, a:focus, a:visited {
   color: black;
+  text-decoration: underline;
 }
 
 abbr {
@@ -22,26 +23,27 @@ body {
 background-image: url(images/wood-2045379_960_720.webp);
 background-repeat: no-repeat;
 background-size: cover;
+font-family: 'Dancing Script', cursive;
+font-size: 18pt;
 }
 
-body p {
-    font-family: 'Dancing Script', cursive;
-    font-size: 1.5em;
-    line-height: 2em;
+p {
+line-height: 2em;
+margin-bottom: 1em;
 }
 h1 h2 {
-    font-family: 'Lato', sans-serif;
+font-family: 'Lato', sans-serif;
 }
 
 .sidebar {
     background-image: url(images/notebook-2465914_960_720.png);
     background-size: contain;
     background-repeat: no-repeat;
-    padding: 4em;
+    padding: 2em 4em 4em 4em;
     position: fixed;
-    top: 20px;
+    top: 40px;
     text-align: left;
-    right: 20px;
+    left: 20px;
 }
 
 .intro h1 {
@@ -57,5 +59,5 @@ h1 h2 {
     padding-left: 80px;
     padding-right: 80px;
     text-align: center;
-    width: 60em;
+    width: 25em;
 }
